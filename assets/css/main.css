@@ -1,3 +1,6 @@
+*{
+	outline: 1px solid red;
+}
 .gray-dark{
 	background-color: #3b444b;
 }
@@ -78,8 +81,6 @@ html, body, section{
 	font-family: "khula", sans-serif;
 	background-color: ghostwhite;
 	background-image: url(https://st.depositphotos.com/2001403/3823/i/950/depositphotos_38231099-stock-photo-deck-table-over-garden-bokeh.jpg);
-	/*background-repeat: no-repeat;
-	background-position: center;*/
 }
 h1{
 	text-align: center;
