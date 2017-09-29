@@ -1,0 +1,90 @@
+.gray-dark{
+	background-color: #3b444b;
+}
+.gray-medium{
+	background-color: #62676b;
+}
+.gray-green{
+	background-color: darkslategray;
+}
+.gray-soft{
+	background-color: #bac7b6;
+}
+.gold{
+	background-color: #f0c50f;
+}
+input[type="button"],
+button{
+	border-radius: 50%;
+	border-style: none;
+	width: 19%;
+	height: 21%;
+	margin: 2%;
+	color: white;
+	font-weight: 800;
+	font-size: 15px;
+}
+button:focus,
+input:focus{
+	outline: none;
+}
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+.flex-content{
+	vertical-align: middle;
+	width: 280px;
+}
+.head{
+	height: 80px;
+	border-top-left-radius: 44px;
+	border-top-right-radius: 44px;
+}
+.content{
+	height: 200px;
+	padding: 9% 7% 40% 7%;
+	border-bottom-left-radius: 44px;
+	border-bottom-right-radius: 44px;
+	text-align: center;
+}
+.screen-case{
+	height: 42px;
+	background-color: darkgray;
+	padding: 3%;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+.screen{
+	border-style: none;
+	width: 100%;
+	height: 40px;
+	font-weight: 800;
+	font-size: 30px;
+	text-align: right;
+	color: white;
+}
+hr{
+	background: white;
+	height: 2px;
+	border-style: none;
+}
+html, body, section{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "khula", sans-serif;
+	background-color: ghostwhite;
+	background-image: url(https://st.depositphotos.com/2001403/3823/i/950/depositphotos_38231099-stock-photo-deck-table-over-garden-bokeh.jpg);
+	/*background-repeat: no-repeat;
+	background-position: center;*/
+}
+h1{
+	text-align: center;
+}
+input:hover{
+	color: yellow;
+	background-color: #6AF080;
+}
