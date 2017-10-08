@@ -1,6 +1,17 @@
 *{
-/*	outline: 1px solid red;
+/*	outline: 1px so.lid red;
 */}
+a #logo {
+	position: relative;
+	left: 50px !important;
+}
+.navbar-light .navbar-toggler {
+    border-color: white !important; 
+    padding: 20px;
+}
+.navbar {
+    padding: .9rem 3rem;
+}
 .gray-dark{
 	background-color: #3b444b;
 }
@@ -16,6 +27,22 @@
 .gold{
 	background-color: #f0c50f;
 }
+/*carrusel*/
+.w-100 {
+
+    max-height: 550px !important;
+    width: 400px !important;
+    position: relative !important;
+    left: 50px !important;
+    top: 50px;
+}
+
+form {
+	background-image: url(http://www.rosario3.com/__export/1427977249456/sites/rosario3/img/noticias/2015/04/02/educacixntxcnica2.jpg_1572130063.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
 input[type="button"],
 button{
 	border-radius: 50%;
@@ -45,13 +72,20 @@ input:focus{
 	height: 80px;
 	border-top-left-radius: 44px;
 	border-top-right-radius: 44px;
+	position: relative;
+	left: 300px;
+	top: 100px;
+
 }
 .content{
-	height: 200px;
+	height: 300px;
 	padding: 9% 7% 40% 7%;
 	border-bottom-left-radius: 44px;
 	border-bottom-right-radius: 44px;
 	text-align: center;
+	position: relative;
+	left: 300px;
+	top: 100px;
 }
 .screen-case{
 	height: 42px;
@@ -79,13 +113,13 @@ html, body, section{
 	margin: 0;
 	padding: 0;
 	font-family: "khula", sans-serif;
-	background-color: ghostwhite;
-	background-image: url(https://st.depositphotos.com/2001403/3823/i/950/depositphotos_38231099-stock-photo-deck-table-over-garden-bokeh.jpg);
 }
 h1{
+	width: 400px;
 	text-align: center;
 	position: relative;
-	top: 100px;
+	top: 200px;
+	left: 750px;
 }
 input:hover{
 	color: yellow;
